@@ -4,14 +4,108 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>My Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js
+  "></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
-  <h1>Hello World</h1>
+  <div class="wrapper">
+    <nav class="navbar">
+      <div class="menu-btn" onclick="openSidebar()">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <div class="nav-logo">My Website</div>
+      <ul class="nav-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a class="active" href="#">Sign In</a></li>
+      </ul>
+    </nav>
+    <ul class="sidebar" id="sidebar">
+      <div class="close" onclick="closeSidebar()">
+        &times;
+      </div>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul>
+    <div class="header-content">
+      <h1>My Website</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt illo natus, dicta iusto impedit
+        praesentium, similique alias atque dolorum et quibusdam? Neque sapiente deleniti ea in a vitae dignissimos
+        esse.</p>
+      <a href="#">Learn More <i class="fa fa-chevron-right fa-fw"></i></a>
+    </div>
+    <header class="header-container">
+    </header>
+    <section class="sec1">
+      <h1>What Do <span class="primary-color">We Provide?</span></h1>
+      <div class="card1">
+        <p><i class="fa fa-desktop fa-4x fa-fw"></i></p>
+        <h3>Responsive Website</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem labore quia, laudantium reiciendis
+          tenetur explicabo modi perspiciatis praesentium placeat nisi voluptates rem corrupti nesciunt neque quis
+          accusamus aut nulla eligendi.</p>
+      </div>
+      <div class="card2">
+        <p><i class="fa fa-mobile fa-4x fa-fw"></i></p>
+        <h3>Mobile Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem doloribus possimus nulla officia esse
+          sapiente id odit eos ea incidunt optio aut, porro eaque cum aliquam debitis ducimus natus dicta?</p>
+      </div>
+      <div class="card3">
+        <p><i class="fa fa-heart fa-4x fa-fw"></i></p>
+        <h3>Heartful Prices</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corrupti inventore repellat quas sequi nobis,
+          accusantium sapiente ipsam asperiores qui voluptates ducimus officiis sit consectetur, explicabo architecto
+          exercitationem optio minus.</p>
+      </div>
+      <div class="card4">
+        <p><i class="fa fa-chart-bar fa-4x fa-fw"></i></p>
+        <h3>SE Optimization</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque repellendus ducimus animi molestias
+          nesciunt quae quia reiciendis facere asperiores! Error voluptatem praesentium quasi sapiente adipisci,
+          perspiciatis nisi eaque a unde!</p>
+      </div>
+      <div class="card5">
+        <p><i class="fa fa-cogs fa-4x fa-fw"></i></p>
+        <h3>Innovative Ideas</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex facilis iure quo cumque velit. Veritatis
+          perspiciatis, debitis cum ipsum libero architecto, temporibus sunt in, perferendis magni eveniet quibusdam at
+          recusandae.</p>
+      </div>
+      <div class="card6">
+        <p><i class="fa fa-coffee fa-4x fa-fw"></i></p>
+        <h3>Free Coffee</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti ex harum molestiae. Saepe, dolorum est
+          aliquam asperiores ullam culpa mollitia aperiam eius magnam amet consectetur voluptatum quia maxime nulla
+          nemo?</p>
+      </div>
+    </section>
+    <section class="sec2">
+      <p>Follow us in our social media accounts!</p>
+      <a href="#"><i class="fab fa-facebook fa-3x fa-fw"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-3x fa-fw"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-3x fa-fw"></i></a>
+      <a href="#"><i class="fab fa-github fa-3x fa-fw"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-3x fa-fw"></i></a>
+    </section>
+    <footer class="footer-container">
+      <p>&copy; My Website 2018. All Rights Reserved.</p>
+    </footer>
+  </div>
 </body>
 
 </html>
